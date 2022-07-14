@@ -31,13 +31,49 @@ body {
     align-items: center;
 }
 
-.hero-text, .hero img {
+.hero-text, .hero-img {
     flex: 1;
+    align-self: stretch;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero-text button {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.hero-text button {
+    background: #3882f6;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.hero-img img {
+    height: 100%;
 }
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bolder
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero p {
+    margin: 0;
 }
 
 .header h3 {
