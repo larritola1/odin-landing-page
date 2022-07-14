@@ -10,14 +10,13 @@ body {
 .first, .fourth {
     background-color: #1F2937;
     color: white;
-    padding: 0 200px;
+    padding: 0px 200px 100px;
 }
 
 .first {
     display: flex;
     flex-direction: column;
     gap: 100px;
-    padding-bottom: 200px;
 }
 
 .second {
@@ -26,6 +25,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 .header {
@@ -111,11 +111,12 @@ a:link {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .second .img-card-master {
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
 .img-card {
@@ -123,6 +124,7 @@ a:link {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
+    gap: 10px;
 }
 
 .card, .img-card p {
