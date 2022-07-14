@@ -20,12 +20,13 @@ body {
 }
 
 .second {
-    background-color: #3882f6;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+    border: 5px dotted black;
 }
 
 .header {
@@ -132,7 +133,7 @@ a:link {
 }
 
 .card {
-    border: 2px solid #E5E7EB;
+    border: 3px solid #3882f6;
     border-radius: 20px;
     height: 200px;
 }
