@@ -7,15 +7,15 @@ body {
     margin: 0;
 }
 
-.first, .fourth {
+.first, .fifth {
     background-color: #1F2937;
     color: white;
-    padding: 0px 5em 2em;
 }
 
 .first {
     display: flex;
     flex-direction: column;
+    padding: 0px 5em 2em;
 }
 
 .second {
@@ -25,7 +25,29 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2em 10em;
-    border: 5px dotted black;
+}
+
+.third {
+    background-color: #c2c2c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 2em;
+}
+
+.fourth {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 2em;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 5em;
 }
 
 .header {
@@ -140,4 +162,55 @@ a:link {
 
 .img-card p {
     margin: 0;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.source {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 5em;
+    border-radius: 0.5em;
+}
+
+.four-text {
+    width: 80%;
+    color: white;
+}
+
+.four-text h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.four-text p {
+    margin: 0;
+}
+
+.call-to-action button {
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 0.5em 1.5em;
 }
